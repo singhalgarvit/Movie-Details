@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.movieContainer{
+    width: 100%;
+}
+.shortContainer{
+    margin: 150px auto;
+    max-width: 60%;
+    line-height: 30px;
+}
+
+.shortContainer h1{
+    font-size: 60px;
+    font-family: 'Mukta', sans-serif;
+    line-height: 50px;
+}
+
+.shortContainer #p01{
+    font-family: "lato";
+    font-size: 20px;
+}
+
+.shortContainer #p02{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.shortContainer #p03{
+    font-size: 27px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+@media screen and (max-width: 900px) {
+   .shortContainer{
+    margin:10px auto;
+    max-width: 90%;
+   }
+  }

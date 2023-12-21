@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.box{
+    width: 100%;
+}
+.container{
+    user-select: none;
+    border: 1px solid black;
+    height: 160px;
+    width: 400px;
+    line-height: 20px;
+    padding: 5px 13px;
+    margin: 10px auto;
+    
+}
+
+
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 2px 0px ;
+}
+
+.container #dateduration{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.container #about{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: ;
+}
